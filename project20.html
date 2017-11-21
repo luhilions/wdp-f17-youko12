@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Web Form</title>
+    <style>
+      .feedback {
+            width: 500px;
+            background-color: #acadab;
+            font-family: Tahoma;
+            font-size: 15px;
+            padding: 10px 10px 10px 10px;
+            border: 1px solid black;
+             }
+      .button{
+        text-align: center;
+        padding:1px;
+      }
+      .in{
+        text-align:center;
+        padding: 1px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form class="feedback">
+  <fieldset>
+    <legend>Give Us Your Feedback</legend>
+    Full name:<br><br>
+      <input type="text" name="firstname" width:200px value="" class="in" ><br><br>
+    Year:<br><br>
+      <input type="radio" name="grade" value="freshman" > Freshman<br>
+      <input type="radio" name="grade" value="sophomore"> Sophomore<br>
+      <input type="radio" name="grade" value="junior"> Junior<br>
+      <input type="radio" name="grade" value="senior"> Senior<br><br>
+    Activities:<br><br>
+      <input type="checkbox" name="activity" value="sports" > Sports<br>
+      <input type="checkbox" name="activity" value="theatre"> Theatre<br>
+      <input type="checkbox" name="activity" value="music"> Music<br>
+      <input type="checkbox" name="activity" value="other"> Other<br><br>
+    Quarter:<br><br>
+      <select name="quarters">
+        <option value="spring">Spring</option>
+        <option value="summer">Summer</option>
+        <option value="fall" selected>Fall</option>
+        <option value="winter">Winter</option>
+      </select><br><br>
+    Comments:<br><br>
+        <textarea name="comment" width:100px>
+Enter your feedback here.
+        </textarea><br><br>
+        
+    <center><input type="submit" class="button" value="Click Here to Submit"></center>
+  </fieldset>
+</form>
+  </body>
+
+</html>
